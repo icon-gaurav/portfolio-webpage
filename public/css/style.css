@@ -1,0 +1,110 @@
+body{
+    font-family: Open Sans, serif;
+}
+.container{
+    max-width: 1031px;
+    padding: 20px;
+    margin:0 auto
+}
+.author-name {
+    text-transform: uppercase;
+    font-size: 6rem;
+    color: #343a40;
+    text-align: center;
+}
+
+.author-name > span {
+    color: #f10268 !important
+}
+
+.address {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #868e96;
+    text-align: center;
+}
+
+.address > a {
+    color: #f10268;
+    margin: 0px 10px;
+}
+
+.bio {
+    color: #868e96;
+    font-weight: 400;
+    font-size: 1.15rem;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 3.5rem;
+    color: #343a40;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+.experience-wrapper{
+    position: relative;
+}
+
+.experience-wrapper .job-title {
+    font-size: 2rem;
+    color: #343a40;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.experience-wrapper .org {
+    color: #868e96;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.experience-wrapper .items {
+    color: #868e96;
+}
+
+.experience-wrapper .date {
+    position: absolute;
+    color: #f10268;
+    font-size: 1rem;
+    top:0;
+    right:0
+}
+
+.social-icons{
+    margin-top: 4rem;
+}
+
+.social-icons .item{
+    background-color: #495057;
+    height:3.5rem!important;
+    width:3.5rem!important;
+    border-radius: 100%;
+    color:white;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-icons .item:hover{
+    background-color: #f10268;
+}
+
+hr{
+    margin: 4rem 0;
+}
+
+.image-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.image-wrapper .image{
+    border:0.5rem solid #00000033;
+    border-radius: 100%;
+    height: 20rem;
+    width: 20rem;
+}
